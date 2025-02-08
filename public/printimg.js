@@ -1,6 +1,5 @@
 
 window.onload = function() {
-    
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -12,7 +11,7 @@ window.onload = function() {
             var hitsArr = hits.split("").map(Number);
         
             for (let i = 0; i < hitsArr.length; i++) {
-                document.getElementById("num"+(7-i)).src = `/rsc/num${hitsArr[i]}.gif`;
+                document.getElementById("num"+(7-i)).src = `./rsc/img/num${hitsArr[i]}.gif`;
             }
         }
     };
