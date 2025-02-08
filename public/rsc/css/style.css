@@ -6,7 +6,7 @@ body {
   color: rgb(0, 0, 0);
   font-weight: bold;
   font-family: 'basiic';
-  cursor: url('/rsc/img/Normal\ Select.cur'), auto;
+  cursor: url('/rsc/img/NormalSelect.cur'), auto;
 }
 
 h1 {
@@ -14,7 +14,7 @@ h1 {
 }
 
 a {
-  cursor: url('/rsc/img/Link\ Select.cur'), auto;
+  cursor: url('/rsc/img/LinkSelect.cur'), auto;
 }
 
 a:link, a:visited{
