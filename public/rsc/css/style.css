@@ -1,28 +1,23 @@
 
 html{
-  cursor: url('/rsc/img/NormalSelect.png'), auto;
+  cursor: url('./rsc/img/NormalSelect.png'), auto;
 }
 html a{
-  cursor: url('/rsc/img/LinkSelect.png'), auto;
+  cursor: url('./rsc/img/LinkSelect.png'), auto;
 }
 
 body {
   background-color: #A5BAD3;
-  background-image: url('/rsc/img/movestarbackground.gif');
+  background-image: url('../img/movestarbackground.gif');
   background-size: 5%;
   color: rgb(0, 0, 0);
   font-weight: bold;
   font-family: 'basiic';
-  /* cursor: url('/rsc/img/NormalSelect.cur'), auto; */
 }
 
 h1 {
   font-family: 'Daydream'
 }
-
-/* a {
-  cursor: url('/rsc/img/LinkSelect.cur'), auto;
-} */
 
 a:link, a:visited{
   color: #025fd1;
@@ -111,21 +106,33 @@ hr {
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
   position: absolute;
-  transform: translate3d(678px, -48px, 0);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: translate3d(710px, 190px, 0);
 }
 #marsCloud {
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
   position: absolute;
-  transform: translate3d(-105px, 190px, 0);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: translate3d(-70px, 430px, 0);
 }
 #marsCloud2 {
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
   position: absolute;
-  transform: translate3d(650px, 350px, 0);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: translate3d(690px, 570px, 0);
 }
 
 #navBox {
